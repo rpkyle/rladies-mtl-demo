@@ -162,5 +162,12 @@ app$callback(
   }
 )
 
-app$run_server(host = "0.0.0.0", port = 8050)
+app$run_server(host = "127.0.0.1", 
+               port=9000)
 
+# app$run_server(host = "127.0.0.1", 
+#                port=8050, 
+#                dev_tools_hot_reload=TRUE,
+#                dev_tools_hot_reload_interval = 3,
+#                dev_tools_silence_routes_logging = TRUE,
+#                viewer = TRUE)
